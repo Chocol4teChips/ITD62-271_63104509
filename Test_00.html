@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<head>
+    <title>TEST_HTML</title>
+    <meta name="description" content="ทดสอบ"> <!--เกี่ยวกับ-->
+    <meta name="author" content="Teerapoom"> <!--ผู้จัดทำ-->
+    <meta name="keywords" content="html"> <!--ค้นหา-->
+</head>
+<body>
+<section class="section" id="Header">
+    <h1>Thus is a Header 1 </h1> <!--<center></center> เอาไว้ตรงกลาง-->
+    <h2>Thus is a Header 1 </h2>
+    <h3>Thus is a Header 1 </h3>
+    <h4>Thus is a Header 1 </h4>
+    <h5>Thus is a Header 1 </h5>
+    <h6>Thus is a Header 1</h6>
+</section>
+<section class="section" id = Pagragrahp">
+    <p> 
+        ความสัมพันธ์ระหว่างมนุษย์กับหมานั้นถูกฝังลึกในด้านโบราณคดีและหลักฐานที่ตรงกันชี้ให้เห็นช่วงเวลาของการทำให้หมาเชื่องในยุคหินใหม่ ใกล้ ๆ กับขอบเขตของช่วงเพลสโตซีนและโฮโลซีน ในระหว่าง 17,000 - 14,000 ปีมาแล้ว ซากกระดูกฟอสซิลและการวิเคราะห์ยีนของหมาในยุคอดีตกับปัจจุบัน และประชากรหมาป่ายังไม่ถูกค้นพบ    
+    </p>
+</section>
+<section class="section" id="Formatting"> 
+    <p><strong>Thus is a Formatting</strong></p>  <!--อักษรตัวหนา(ทั้งหมด)-->
+    <p><b>Thus is a Formatting</b></p>
+    <p>Thus is a <strong> Formatting </strong></p> <!--อักษรตัวหนา(เฉพาะ "Formatting")-->
+    <p><em>Thus is a Formatting<em></p> <!--อักษรตัวเอียง-->
+    <p><mark>Thus is a Formatting<mark></p> <!--อักษรไฮไล-->
+    <p>Thus is a<sub>Formatting</sub></p> <!--อักษรตัวห้อย-->
+    <p> x <sup> 2 </sup></p> <!--อักษรตัวยกกำลัง-->
+    <p>Thus is a<del>Formatting</del></p> <!--อักษรขีดฆ่า-->
+    <p>Thus is a <u>Formatting</u></p> <!--อักษรขีดเส้นใต้-->
+</section>
+<section class="section" id="Quotation">
+    <p>This a <q>Quotation</q></p> <!--The is 'Quotation' -->
+    <blockquote>
+        ความสัมพันธ์ระหว่างมนุษย์กับหมานั้นถูกฝังลึกในด้านโบราณคดีและหลักฐานที่ตรงกันชี้ให้เห็นช่วงเวลาของการทำให้หมาเชื่องในยุคหินใหม่ ใกล้ ๆ กับขอบเขตของช่วงเพลสโตซีนและโฮโลซีน ในระหว่าง 17,000 - 14,000 ปีมาแล้ว ซากกระดูกฟอสซิลและการวิเคราะห์ยีนของหมาในยุคอดีตกับปัจจุบัน และประชากรหมาป่ายังไม่ถูกค้นพบ     
+    </blockquote>> <!--ให้รู้ว่าเป็น blockquote ไม่ใช่ <p> ธรรมดา-->
+    <p>This is a <abbr title="World Health Organization">who</abbr></p>
+</section>
+<section class="section" id="Link">
+    <a href = "http://google.com">Google</a><br> <!--ควรจะมี hred เสมอเวลาจะลิ้ง (โดยหน้าของเราหาย) br เว้นบรรทัด-->
+    <a href = "http://google.com"target="blank">Google_blank</a> <!--เปิดหน้าใหม่ได้เลย-->
+    <a href = "https://youtu.be/OmdpLB0ImjU" target= "_blank"><p>music</p></a>
+    <a href = "Test/page2.html" target="blank"> หน้าถัดไป </a> <!--ในโฟเดอร์อื่น-->>
+</section>
+<section class="section" id="Media">
+    <img src="images/dog00.jpg" alt="dog" width="400"  > <br> <!--ตั้งชื่อไฟล์ว่า images-->
+    <a href = "../Teast/page2.html" target="_blank"></a><!--../page2.html-->
+    <img src="images/111.jpg" alt="Sa" width="400"  > <br>
+    <video src ="https://futureskill.s3-ap-southeast-1.amazonaws.com/super+content.mp4" alt="ว่าง" width = "400"></video> <!--autoplayเล่นอัตโนมัติ-->
+</section>
+<section class="section" id="Table"> <!--ตาราง-->
+    <table>
+        <caption><strong>Coffee shop</strong></caption> <!--หัวข้อ-->
+        <tr>
+            <th>menu</th> <!--colspan,rowspan ขยายตาราง-->
+            <th>price</th>
+        </tr>
+        <tr>
+            <td>Latte</td>
+            <td>35</td>
+        </tr>
+        <tr>
+            <td>Black coffee</td>
+            <td>50</td>
+        </tr>
+    </table>
+</section>
+<section class="section" id="list">
+    <ol>
+        <li>My name is A </li>
+        <li>My name is B </li>
+        <li>My name is C </li>
+    </ol>
+    <ol type="A">
+        <li>My name is A 
+            <ul type="square">
+                <li>C</li>
+            </ul>
+        </li>
+        <li>My name is B </li>
+        <li>My name is C </li>
+    </ol>
+    <ul> <!--ไม่เรียงลำดับ-->
+        <li>My name is A </li>
+        <li>My name is B </li>
+        <li>My name is C </li>
+    </ul>
+    <dl>
+        <dt>A</dt>
+        <dd>My name is A</dd>
+    </dl>
+</section>
+<section class="section" id="ifame">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/u-GJBlpLoDE"></iframe>
+</section>
+<section class="section" id="code">
+    <pre>
+        <code>
+            print("Ja") <!--โค้ดด-->>
+        </code>
+    </pre>
+    <p><var>x</var> = 1 + 12 </p>
+</section>
+<section class="section" id="form">
+    <form>
+        text:<input type="text"><br><br>
+        text_2:<input type="text_2" readonly  value=" Readme "><br><br> <!--อ่านได้อย่างเดียว-->
+        number:<input type="number"><br><br>
+        password:<input name= "password" type= "password" placeholder="กรอกPassword"><br><br><!--<be></br>_ขึ้นบรรทัดใหม่-->
+        Submit:<input type="submit"><br><br>
+        textarea:<textarea name=""  cols="30" rows="10"></textarea><br><br> <!--บันทึกข้อความยาวๆ-->
+        select:<select name=""> <!--แสดงตัวเลือกในรูปแบบDrop-Down-->
+            <option value = "A">Att</option> <!-- มันจะเอาค่า value ไป ไม่ใช่ Att-->
+            <option value = "B" selected >B</option> <!--selected จะเป็นการ ถ้าไม่กดตอบก็จะเอาอันนนั้น-->
+            <option value = "C">C</option>
+        </select><br></br>
+        man: <input type="radio" value = "man">
+        woman: <input type="radio" value = "woman"> <!--เลือกเพียงอย่างเดียว-->
+        Green: <input type="checkbox" value = "Green"> <br><br> <!--เลือกได้หลายอัน-->
+        <button onsubmit="" type = "submit">Click_me</button><!--submit ส่งข้อมูล เเต่เปลี่ยน submit เป็น button ก็จะเป็นเเค่ปุ่ม -->
+    </form>
+</section><br><br>
+    <section class="section" id="line">
+        <h1>ร้านกาเเฟ</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus numquam eaque quo quaerat consectetur, aliquam quasi ad reprehenderit esse illo error odit suscipit, exercitationem eum atque, earum ut tempora aut.</p><hr>
+        <h1>ร้านดอกไม้</h1>
+    </section>
+</section>
+<section class="section" id="div,span"><!--การจัดกลุ่ม-->
+    <span style="color: darkblue;">
+        <h1>HTML1</h1>
+        <p>teerapoom</p>
+    </span>
+    <span>
+        <h1>css</h1>
+        <p>teerapoom</p>
+    </span>
+    <div>
+        <h1>HTML1</h1>
+        <p>teerapoom</p>
+    </div>
+    <div>
+        <h1>HTML2</h1>
+        <p>teerapoom</p>
+    </div>
+    <span>teerapoom</span>
+    <span>teerapoom</span>
+    <span>teerapoom</span> <!--กินพื้นที่ตามขนาด-->
+    <div>teerapoom</div> <!--กินพื้นที่เต็ม-->
+    <div>teerapoom</div>
+    <div>teerapoom</div>
+</section>
+</body>
+</html>
