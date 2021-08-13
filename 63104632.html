@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href = "../CSS_TEST/style.css"><!--link(../คือถอยออกจากโฟนเดอร์นั้นก่อน/ระบุว่าอยู่โฟเดอร์ไหน/ระบุที่ต้องการ)-->
+</head>
+<body>
+    <h1>หน้า2</h1>
+    <a href="../Test_00.html" target="_blank">กลับ</a>
+    <section class="section" id="Table">
+        <h1>รายการสินค้า</h1>
+        <table border = "1"  width = "50%" cellpadding = "15"> <!--ขั้น 1--> <!--<table border = "1" bgcolor = "สี" width = "%" ทำให้มีเส้นกรอบ>--> <!--รวมเเถว--><!--พื้นเเสลงผลในสตาราง cellpadding = "เท่าไร" ตัวด้านใน , cellspacing = "เอาขอบตารางเท่าไร"-->
+            <thead><!--ขั้น 2-->
+                <th>ภาพสินค้า</th>
+                <th>ชื่อสินค้า</th>
+                <th>ราคา</th>
+                <th>สั่งสินค้า</th>
+            </thead> 
+            <tbody><!--ขั้น 3-->
+                <tr><!--เเนวนอน-->
+                    <td><img src= "https://thetitanfood.com//public/img/menus/1/161.jpg" alt = "คอหมูย่าง" width = "300"></td>
+                    <td>คอหมูย่าง</td><!--เเนวตั้ง-->
+                    <td>60.00</td>
+                    <td><a href="#">สั้งซื้อ</a></td><!--<td rowspan = "กินพื้นที่ไปเท่าไร" ประสานเเนวตั้ง>-->
+                </tr>
+                <tr><!--align = "left , center , right" จัดตำเเหน่ง-->
+                    <td><img src= "https://thetitanfood.com//public/img/menus/1/161.jpg" alt = "คอหมูย่าง" width = "300"></td>
+                    <td>คอหมูย่าง</td><!--เเนวตั้ง-->
+                    <td>60.00</td>
+                    <td><a href="#">สั้งซื้อ</a></td> 
+                </tr>
+                <tr>
+                    <td><img src = "https://img.wongnai.com/p/1920x0/2018/03/22/2e8145850cb8496bacfa72f6fcd0362d.jpg" alt = "น้ำตก" width = "300" height = ""></td>
+                    <td>คอหมูย่าง</td>
+                    <td>60.00</td>
+                    <td><a href="#">สั้งซื้อ</a></td> 
+                </tr>
+                <tr>
+                    <td><img src = "/images/tes.jpg" alt = "ข้าวเหนี่ยว" width = "300" ></td>
+                    <td>ข้าวเหนี่ยว</td>
+                    <td>10.00</td>
+                    <td><a href="#">สั้งซื้อ</a></td> 
+                </tr>
+            </tbody>
+            <tfoot align ="right"><!--ท้ายตาราง-->
+                <td colspan="5">รวม300</td> <!-- ประสานเเนวนอน (colspan="2") -->
+            </tfoot> 
+        </table>
+    </section>
+</body>
+</html>
